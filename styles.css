@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: #5D5D7D;
+}
+
+.wrapper { /* div ocupando toda a tela */
+    height: 100vh;
+    width: 100vw;
+}
+
+.left-section {
+    display: inline-block;
+    width: 60%;
+    margin-top: 20%;
+    padding-left: 136px;
+}
+
+.right-section {
+    display: inline-block;
+    /* rgb com opacity por último */
+    background-color: rgba(93, 93, 125, 0.16);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+}
+
+.girl {
+    position: relative;
+    width: 456px;
+    height: 562px;
+    top: 25%;
+    right: 130px;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 80px;
+    text-align: left;
+    width: 368px;
+}
+
+p {
+    font-size: 28px;
+    line-height: 48px;
+    opacity: 0.6;
+    margin: 15px 0;
+    width: 540px;
+}
+
+#start {
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;       
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    font-size: 24px;
+    line-height: 35.57px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#start:hover {
+    opacity: 0.8;
+}
+
+#start:active {
+    opacity: 0.5;
+}
+
+.link {
+    cursor: pointer;
+    font-size: 28px;
+    line-height: 41px;
+    margin-right: 41px;
+}
+
+.link:nth-child(2) {
+    opacity: 0.4;
+}
+
+.link:hover {
+    opacity: 0.4;
+}
+
+.link:active {
+    opacity: 0.8;
+}
+
+header {
+    margin: 24px 0 0 57px;
+}
+
+@media screen and (max-width: 900px) {
+    .left-section {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .right-section {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+    }
+
+    .girl {
+        position: static;
+    }
+
+    header {
+        display: none; /* O menu desaparece */
+    }
+
+    h1 {
+        font-size: 36px;
+        font-weight: 52px;
+        width: auto;
+        margin: 58px 50px 0 50px; 
+        text-align: center;
+    }
+
+    p {
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #start {
+        display: block;
+        margin: 0 auto; /* Fica no meio */
+    }
+
+    .girl {
+        position: static;
+        max-width: 90%;
+    }
+}

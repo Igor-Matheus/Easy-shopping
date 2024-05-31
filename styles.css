@@ -114,10 +114,6 @@ header {
         padding: 40px;
     }
 
-    .girl {
-        position: static;
-    }
-
     header {
         display: none; /* O menu desaparece */
     }

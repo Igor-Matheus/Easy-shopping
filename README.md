@@ -2,8 +2,7 @@
 <br>
 <h2>Esse foi um projeto responsivo que eu aprendi no <a href="https://rodolfomori.com.br/devclub" target="_blank">DevClub</a></h2>
 
-<h2>Tecnologias utilizadas</h2>
-<br>
+<p>Tecnologias utilizadas:</p>
   <p>- HTML</p>
   <p>- CSS</p>
   

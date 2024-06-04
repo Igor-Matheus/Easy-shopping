@@ -9,4 +9,4 @@
   
 <img src="https://github.com/Igor-Matheus/Easy-shopping/blob/main/assets/computador.png?raw=true">
 
-<img src="">
+<img src="https://github.com/Igor-Matheus/Easy-shopping/blob/main/assets/mobile.png?raw=true">
